@@ -16,7 +16,7 @@ class Output:
 	def write(self, text_str):
 		self.text += text_str
 
-	def wirte_lines(self, lines):
+	def wirtelines(self, lines):
 		for line_str in lines:
 			self.write(line_str)
 
@@ -35,7 +35,7 @@ class Input:
 
 		return r_text
 
-	def read_line(self):
+	def readline(self):
 		n = self.text.find('\n')
 
 		if n == -1:

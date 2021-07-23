@@ -1,0 +1,4 @@
+Hello, stream world!
+Enter a number >>> 11 squared is 121
+Enter a number >>> 6 squared is 36
+Enter a number >>> :) Bye

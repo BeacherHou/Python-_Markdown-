@@ -16,7 +16,7 @@ class Output:
 	def write(self, text_str):
 		self.text += text_str
 
-	def wirtelines(self, lines):
+	def writelines(self, lines):
 		for line_str in lines:
 			self.write(line_str)
 

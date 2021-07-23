@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 "将函数运行的结果重定向"
 
 

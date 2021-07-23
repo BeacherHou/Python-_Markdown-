@@ -58,7 +58,3 @@ def redirect(function, pargs_tuple, kargs_dict, input_str):
 		sys.stdin, sys.stdout = save_streams
 
 	return r_result, r_output_str
-
-
-if __name__ == '__main__':
-	from test_streams import

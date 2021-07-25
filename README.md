@@ -12,7 +12,8 @@
 
 - 笔记主体
 - jupyter：*jupyter notebook*的部分笔记
-- PP4E-Examples-1.4：*《Python编程》*官方示例代码
+- PP4E-Examples-1.4：《*Python编程*》官方示例代码
+- pp4e：作者使用*Python 3.7.0*自己编写的示例代码
 
 
 

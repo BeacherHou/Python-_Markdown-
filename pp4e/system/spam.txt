@@ -1,2 +1,1 @@
-Hello stdio world!
-Hello descriptor world!
+Hello stat world

@@ -29,5 +29,5 @@ if len(argv) == 2:
 else:
 	fn_str = 'data.txt'
 
-# 允许扫描器
+# 运行扫描器
 file_scanner(fn_str, process_file)

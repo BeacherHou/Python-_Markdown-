@@ -23,6 +23,18 @@ def process_file(line_str):
 		raise UnknownCommand(line_str)
 
 
+# 替代方案
+# 数据比代码更容易拓展
+# commands_dict = {'+': 'Mr.', '*': 'Ms.'}
+
+
+# def process_file(line_str):
+# 	try:
+# 		print(commands_dict[line_str[0]] + line_str[1:-1])
+# 	except KeyError:
+# 		raise UnknownCommand(line_str)
+
+
 if len(argv) == 2:
 	# 允许通过文件名命令行参数传入文件
 	fn_str = argv[1]

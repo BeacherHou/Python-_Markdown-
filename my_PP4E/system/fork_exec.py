@@ -15,8 +15,8 @@ def main():
 		pid_int = os.fork()
 
 		if not pid_int:
-			os.execlp('python', 'python', 'child.py', str(parm_int))
-			assert False, 'Error starting program'
+			os.execlp('python', 'python', 'child.py', str(parm_int))		# 覆盖原来的程序
+			assert False, 'Error starting program'							# 不应该返回，因为原程序已被覆盖为child.py
 		else:
 			print('Child is', pid_int)
 			if input() == 'q':
